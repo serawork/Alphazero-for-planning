@@ -1,0 +1,6 @@
+(define (problem BLOCKS-genProblems)
+(:domain BLOCKS)
+(:objects A B C D E - block)
+(:INIT (CLEAR B) (CLEAR E) (HANDEMPTY) (ONTABLE C) (ONTABLE D) (ON A C) (ON B A) (ON E D))
+(:goal (AND (ONTABLE B) (ON A C) (ON D E)))
+)
